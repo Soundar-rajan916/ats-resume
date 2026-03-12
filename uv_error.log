@@ -1,0 +1,18 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|##########| 103/103 [00:00<00:00, 3846.44it/s]
+BertModel LOAD REPORT from: sentence-transformers/all-MiniLM-L6-v2
+Key                     | Status     |  | 
+------------------------+------------+--+-
+embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED	:can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Traceback (most recent call last):
+  File "D:\ats-scanner\main.py", line 12, in <module>
+    from src.ai_feedback import generate_feedback
+  File "D:\ats-scanner\src\ai_feedback.py", line 13, in <module>
+    tools=[get_weather, get_time],
+           ^^^^^^^^^^^
+NameError: name 'get_weather' is not defined

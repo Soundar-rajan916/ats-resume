@@ -1,0 +1,32 @@
+
+--- NEW REQUEST ---
+CONTNET: ```
+{
+    "score": 80,
+    "feedback": "
+### Resume Review
+The provided resume shows a strong match with the job description, particularly in terms of technical skills. 
+#### 1. Missing Keywords
+The job description specifically mentions experience in Python, FastAPI, and NLP. While the resume covers these areas, it could be strengthened by explicitly mentioning NLP experience in a clearer manner. Additionally, the resume could benefit from mentioning any experience with Agile development methodologies, version control systems like Git, or experience working in a team environment, which are often valued in development roles.
+
+#### 2. AI Suggestions & Improvements
+To improve the resume's alignment with the job description, consider the following suggestions:
+- **Quantify Achievements**: Instead of just stating the development of high-performance APIs, quantify the achievement (e.g., 'Developed high-performance APIs using FastAPI, resulting in a 30% increase in throughput').
+- **Expand on NLP Experience**: Since NLP is a key requirement, provide more details about NLP projects or experiences, such as text classification, sentiment analysis, or language modeling tasks.
+- **Highlight Soft Skills**: While technical skills are crucial, highlighting soft skills like teamwork, communication, or leadership can make the candidate more attractive.
+
+#### 3. Formatting & Clarity
+The resume provided is quite compact and lacks clear formatting, making it hard to discern different sections or achievements clearly. It is recommended to:
+- **Use Clear Sections**: Divide the resume into clear sections (e.g., Summary, Technical Skills, Experience) to improve readability.
+- **Bullet Points for Achievements**: Use bullet points to list achievements and responsibilities under each job role to make the information easier to scan.
+- **Specific Dates and Roles**: Ensure that employment dates and job titles are clearly stated for each position."
+}
+```
+
+--- NEW REQUEST ---
+CONTNET: ```json
+{
+    "score": 80,
+    "feedback": "### Resume Review\nThe provided resume shows a strong match with the job description, but there are areas for improvement.\n\n#### Missing Keywords\n* The job description specifically mentions 'NLP' which is present in the resume, but it would be beneficial to include more details about NLP experience.\n* The resume does not explicitly mention 'Python Developer' as a job title, although it does mention 'software engineer' and 'senior developer'.\n\n#### AI Suggestions & Improvements\n* Include specific examples of NLP projects or applications developed using Python and FastAPI.\n* Consider adding relevant certifications, such as AWS or Docker, to demonstrate expertise.\n* Emphasize achievements and impact of the developed APIs and machine learning models, rather than just listing technologies.\n\n#### Formatting & Clarity\n* The resume is written in a single block of text, making it difficult to read and understand. Consider using bullet points and clear section headings to improve clarity.\n* There is no clear separation between different sections of the resume, such as work experience and skills. Use whitespace and headings to make the resume more scannable."
+}
+```
