@@ -1,0 +1,13 @@
+.git
+.venv
+__pycache__
+*.pyc
+.env
+llm_debug.log
+error.log
+uv_error.log
+test_resume.pdf
+test_resume.docx
+build/
+dist/
+*.egg-info
